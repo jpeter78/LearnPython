@@ -6,4 +6,4 @@ sudo apt-get install zlib1g-dev libbz2-dev libssl-dev libncurses5-dev libsqlite3
 
 1、下载Python安装包
 
-wget 
+ wget https://www.python.org/ftp/python/3.7.6/Python-3.7.6.tar.xz
