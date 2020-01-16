@@ -17,6 +17,7 @@ tar -xvJf  Python-3.7.6.tar.xz
 sudo mkdir -p /usr/local/python3
 
 5、编译安装
+
 cd Python-3.7.6
 ./configure --prefix=/usr/local/python3 --enable-optimizations --with-ssl
 #第一个指定安装的路径,不指定的话,安装过程中可能软件所需要的文件复制到其他不同目录,删除软件很不方便,复制软件也不方便.
