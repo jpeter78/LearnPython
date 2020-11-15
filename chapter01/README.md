@@ -43,8 +43,8 @@ mv /usr/bin/python /usr/bin/python.bak
 #把原来的python移除
 ln -s /usr/local/python3/bin/python3 /usr/local/bin/python
 ln -s /usr/local/python3/bin/pip3 /usr/local/bin/pip
-'''
 #把python3和pip3创建python和pip的软连接
+```
 
 ## 7、验证
 ``` shell
