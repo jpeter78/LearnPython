@@ -31,7 +31,6 @@ sudo mkdir -p /usr/local/python3
 
 ## 5、编译安装
 ``` shell
-
 cd Python-3.7.6
 ./configure --prefix=/usr/local/python3 
 #指定安装的路径,不指定的话,安装过程中可能软件所需要的文件复制到其他不同目录,删除软件很不方便,复制软件也不方便.
@@ -39,7 +38,7 @@ make && make install
 ```
 
 ## 6、创建软连接
-''' shell
+``` shell
 mv /usr/bin/python /usr/bin/python.bak 
 #把原来的python移除
 ln -s /usr/local/python3/bin/python3 /usr/local/bin/python
@@ -48,7 +47,7 @@ ln -s /usr/local/python3/bin/pip3 /usr/local/bin/pip
 #把python3和pip3创建python和pip的软连接
 
 ## 7、验证
-''' shell
+``` shell
 python -V
 pip -V
 ```
