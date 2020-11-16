@@ -19,12 +19,25 @@ print(name.title())
 ```
 + upper：字符串每个字母大写
 + lower：字符串每个字母小写
+``` python
+name = 'Ada Lovelace'
+print(name.upper())
+print(name.lower())
+```
 + rstrip：去除字符串末尾的空白
 + lstrip：去除字符串开头的空白
 + strip:去除字符串首尾的空白
 + 拼接：用+可以把两个字符串拼接成一个字符串。
+``` python
+first_name = 'ada'
+last_name = 'lovelace'
+full_name = first_name + ' ' + last_name
+```
 + 换行：\n
 + 制表符：\t
+``` python
+print('Languages:\n\tPython\n\tC\n\tJavaScript')
+```
 
 
 数字
