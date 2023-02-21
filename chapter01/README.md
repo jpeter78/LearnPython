@@ -1,4 +1,4 @@
-# Linux 安装Python3.7
+# Linux 安装Python3.8
 
 ## 1、安装依赖环境
 
