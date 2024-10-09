@@ -14,8 +14,8 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 yum install libffi-devel -y
 ```
 centos的openssl的版本可能低了，需要额外安装openssl
-下载openssl
 ```
+# 下载openssl
 cd /usr/src 
 wget https://github.com/openssl/openssl/releases/download/OpenSSL_1_1_1q/openssl-1.1.1q.tar.gz
 ```
